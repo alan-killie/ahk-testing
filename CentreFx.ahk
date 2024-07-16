@@ -14,6 +14,8 @@ Loop
     GroupAdd, fxWin, ahk_class REAPERb32host
     GroupAdd, fxWin, FX: Track
     GroupAdd, fxWin, VST
+    GroupAdd, fxWin, VSTi:
+    GroupAdd, fxWin, VST3i:
     GroupAdd, fxWin,, ReaSamplOmatic5000
     GroupAdd, fxWin, JS:
     GroupAdd, fxWin, BYPASSED
