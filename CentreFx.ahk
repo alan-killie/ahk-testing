@@ -1,13 +1,4 @@
-; Move FX windows to centre
-
-;Menu, Tray, Add, EnableCentreFx, EnableCentreFx
-;Menu, Tray, Add, DisableCentreFx, DisableCentreFx
-;Menu, Tray, Check, EnableCentreFx
-;Menu, Tray, Default, DisableCentreFx
-
-;EnableCentreFx:
-;Menu, Tray, Check, EnableCentreFx
-;Menu, Tray, Uncheck, DisableCentreFx
+; Centre all FX Windows in Reaper
 
 Loop
 {
@@ -37,6 +28,15 @@ return
 #z::
 WinGetPos, xpos, ypos, width, height, ahk_group fxWin
 WinMove, ahk_group fxWin,, % (A_ScreenWidth/2)-(width/2), % (A_ScreenHeight/2)-(height/2), %width%, %height%
+
+;Menu, Tray, Add, EnableCentreFx, EnableCentreFx
+;Menu, Tray, Add, DisableCentreFx, DisableCentreFx
+;Menu, Tray, Check, EnableCentreFx
+;Menu, Tray, Default, DisableCentreFx
+
+;EnableCentreFx:
+;Menu, Tray, Check, EnableCentreFx
+;Menu, Tray, Uncheck, DisableCentreFx
 
 ;DisableCentreFx:
 ;Menu, Tray, Check, DisableCentreFx
