@@ -1,3 +1,4 @@
+; Use the mouse wheel to switch between virtual desktops while hovered over the task view button on the windows taskbar
 #Persistent
 SetTitleMatchMode, 2 ; Makes matching titles and text easier
 CoordMode, Mouse, Screen
